@@ -58,8 +58,8 @@ appengineStage.dependsOn test
 
 appengine {  // App Engine tasks configuration
   deploy {   // deploy configuration
-    projectId = System.getenv('GOOGLE_CLOUD_PROJECT')
-    version = '1'
+    projectId = "GCLOUD_CONFIG"
+    version = "GCLOUD_CONFIG"
   }
 }
 
